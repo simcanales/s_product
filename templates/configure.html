@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configure Action</title>
+</head>
+<body>
+    <h1>Configure Action</h1>
+    <h2>Action Name: {{ action_name }}</h2>
+    <form method="POST" action="/configure">
+        <input type="hidden" name="action_name" value="{{ action_name }}">
+        <label for="field_name">Field Name:</label>
+        <input type="text" id="field_name" name="field_name" required>
+        <input type="submit" value="Add Field">
+    </form>
+    <h3>Fields:</h3>
+    <ul>
+        {% for field in fields %}
+            <li>{{ field }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
