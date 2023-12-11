@@ -1,0 +1,30 @@
+id Producto,Nombre,Descripcion,Precio,Extras Disponibles,Categoria,Esta Disponible
+1,Hamburguesa Sencilla,"Hamburguesa sencilla 100% carne de res (115g) con tomate, lechuga y salsa Home",15500,"101,102,103,104",Hamburguesas,Si
+2,Hamburguesa Doble,"Hamburguesa con dos carnes de 115 gramos incluye tomate, lechuga y salsa Home.",22500,"101,102,103,104",Hamburguesas,Si
+3,Sanduche de Pollo Frito,"Pechuga de pollo marinada en yogurt y especias, apanado, acompañado de ensalada de repollo.",20600,"101,103,104",Hamburguesas,Si
+4,Sanduche de Pollo Frito Picante,"Pechuga de pollo marinada en yogurt y especias, apanado, acompañado de ensalada de repollo y salsa picante.",20600,"101,103,104",Hamburguesas,Si
+5,Hamburguesa Veggie,"Hamburguesa vegetariana de portobellos apanados rellena de queso cheddar, y mozarella, acompañada de tomate, lechuga y salsa Home.",22500,"101,103,104",Hamburguesas,Si
+6,Hamburguesa Not Burger Sencilla,"Patty de 100 gramos a base de plantas, 100% sabor a carne, acompañada de lechuga y tomate",23900,"101,103,104",Hamburguesas,Si
+7,Hamburguesa Not Burger Doble,"Doble Patty de 100 gramos a base de plantas, 100% sabor a carne, acompañada de lechuga y tomate",37100,"101,103,104",Hamburguesas,Si
+8,Papas Home,Papas fritas sazonadas con nuestra mezcla de especias y sal. 150 gramos.,7000,,Acompañamientos,Si
+9,Cheese Tots,Mini hash browns de papa y maíz acompañados de salsa de queso y cebolla crunchy. 200 gramos.,12900,,Acompañamientos,Si
+10,Chicken Bites,Trozos de pollo crocantes con salsa de miel mostaza,16700,,Acompañamientos,Si
+11,Salsa de Queso,3 onz de salsa de queso cheddar hecha en Home,6000,,Acompañamientos,Si
+12,Agua con Gas,Agua con gas Manantial. Botella 300ml,5500,,Bebidas,Si
+13,Agua sin Gas,Agua Manantial sin gas. Botella 500ml.,5500,,Bebidas,Si
+14,Coca-Cola Sabor Original lata 330ml,Coca Cola Original. Lata 330ml.,5500,,Bebidas,Si
+15,Coca-Cola Sin Azúcar 330ml,Coca Cola sin azucar. Lata 330ml.,5500,,Bebidas,Si
+16,Coca-Cola Sabor Original 400ml,Coca Cola Original Botella 400ml.,6000,,Bebidas,Si
+17,Sprite 400ml,Gaseosa Sprite. Botella 400ml.,6000,,Bebidas,Si
+18,Quatro 400ml,Gaseosa Quatro. Botella 400ml.,6000,,Bebidas,Si
+19,Fuze Tea Limón 400ml,Fuze Tea Limón. Botella 400ml,5500,,Bebidas,Si
+20,Limonada Lucy,Limonada Lucy ligeramente gasificada. Lata de 269 ml,8900,,Bebidas,Si
+21,Limonada Rosada,Limonada rosada Lucy ligeramente gasificada con sabor a cereza. Lata de 269 ml,8900,,Bebidas,Si
+22,Kombucha,Botella 215ml,9500,,Bebidas,Si
+23,Stella Artois,Cerveza Stella Artois. Botella 330ml.,11000,,Bebidas,Si
+24,Cerveza BBC Miel,Cerveza BBC Miel. Lata 269ml.,8900,,Bebidas,Si
+25,Budweiser 269ml,Cerveza Budweiser. Lata 269ml.,8900,,Bebidas,Si
+26,Coronita 210ml,Cerveza Coronita. Botella 210ml.,8900,,Bebidas,Si
+27,Vaso 1 Sabor,Con 1 bola de helado (Sabor a elección),5000,105,Helados y Malteadas,Si
+28,Malteada,Un sabor de helado con crema chantilly y salsa a elección.,13900,105,Helados y Malteadas,Si
+29,Pote 1/2 Litro 1 sabor,Pote 1/2 Litro 1 sabor,21900,105,Helados y Malteadas,Si

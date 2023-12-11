@@ -1,0 +1,24 @@
+{
+    "mensaje": "<Mensaje amigable al usuario>",
+    "pedido_confirmado": false,
+    "pedido": [
+      {
+          "nombre": "[Nombre del producto]",
+          "precio_base": "[Precio del producto]",
+          "cantidad": "[Cantidad solicitada del producto por el cliente]",
+          "extras": [
+              {
+                  "nombre": "[Nombre del extra, como 'Extras con costo']",
+                  "seleccion": [
+                     {
+                         "extra": "[Nombre la opción del extra, como 'Queso']",
+                         "precio": "[Costo adicional del extra]",
+                         "cantidad": "[Cantidad solicitada del extra por el cliente]"
+                     }
+                  ]
+              }
+          ]
+      }
+    ]
+}
+   

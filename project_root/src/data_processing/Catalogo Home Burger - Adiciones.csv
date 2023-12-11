@@ -1,0 +1,6 @@
+ID Extra,Nombre,Opciones Disponibles y Precio,Cantidad Máxima Total Seleccionable,Es Obligatoria,Cantidad Máxima por Opción
+101,Con o Sin Pan,"Con Pan: 0, Wrap Lechuga (Sin Pan): 0",1,Si,1
+102,Termino de Carne,"Termino Azul: 0, Termino Medio: 0, Termino 3/4:0, Termino Bien Asada:0",1,Si,1
+103,Extras Con Costo,"Queso: 3900, Tocineta: 4200, Adición Carne: 7400, Adición Pollo: 7400",4,No,4
+104,Vegetales,"Sin Tomate: 0, Sin Lechuga: 0, Sin Salsa: 0, Con Cebolla:0, Con Pepinillos: 0",5,No,1
+105,Sabor Helado,"Caramel Pretzel Crunch:0, Peanut Butter y Brownie:0, Pie de Limon:0, Vainilla Madagascar:0, Chocolate Fudge Brownie: 0, Frambuesa Merengue: 0",1,Si,1
