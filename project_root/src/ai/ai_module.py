@@ -1,7 +1,6 @@
 from data_processing.data_module import Catalog
 import openai
 import json
-import config
 from decimal import Decimal
 import os
 
@@ -57,7 +56,7 @@ class AIAssistant( ):
             if data["pedido_confirmado"]: response_text +="\nPEDIDO CONFIRMADO"
         return response_text
     
-    def format_pedido( self, jsonOrder ):
+    def format_pedido(self, jsonOrder):
         formatted_order = ""
 
         for index, item in enumerate(jsonOrder["pedido"], start=1):
@@ -78,8 +77,8 @@ class AIAssistant( ):
                 formatted_order += "\n"
 
         total_order_price = sum(
-            Decimal(item['precio_base']) + sum(
-                Decimal(extra['precio']) for extra_group in item["extras"] for extra in extra_group["seleccion"]
+            Decimal(item['precio_base']) * Decimal(item['cantidad']) + sum(
+                Decimal(extra['precio']) * Decimal(item['cantidad']) for extra_group in item["extras"] for extra in extra_group["seleccion"]
                 if extra['precio'] != "0.0"
             ) for item in jsonOrder["pedido"]
         )
