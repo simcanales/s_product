@@ -5,8 +5,8 @@ import config
 from decimal import Decimal
 import os
 
-from config.api_keys import api_key
-openai.api_key = api_key
+from config.api_keys import API_KEY
+openai.api_key = API_KEY
 
 class AIAssistant( ):
     array_messages = []
